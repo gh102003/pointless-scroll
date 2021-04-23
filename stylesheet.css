@@ -1,0 +1,29 @@
+* {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #443289;
+  overflow-y: scroll;
+  margin: 0;
+}
+
+h1 {
+  position: fixed;
+  top: 30vh;
+  text-align: center;
+  margin: 0 2em;
+  text-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.page {
+  height: 150vh;
+  background: #447;
+  font-size: 2em;
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  padding-bottom: 70vh;
+  box-sizing: border-box;
+}
